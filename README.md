@@ -1,3 +1,9 @@
+
+aclaraciones:
+actualizar lo marcado para poder tener una buena ejecucion
+![image](https://github.com/user-attachments/assets/c201f927-760d-49f4-899e-cf92e7abf349)
+
+
 pruebas de ejecucion
 
 ![image](https://github.com/user-attachments/assets/a68c0863-c883-4a16-8938-38d5feaaf62f)
