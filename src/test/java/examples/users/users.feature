@@ -8,22 +8,20 @@ Feature: Pruebas de API
     Given path '/users'
     When method get
     Then status 200
-    * print response
-    And match response contains {"data": "#notnull"}
 
-#  Scenario: Crear usuario
-#    Given path '/users'
-#    And request {"name": "Samuel Quenta Carvajal","email": "squentac2@bancosol.com.bo","gender": "male","status": "active"}
-#    When method post
-#    Then status 201
-#
-#  Scenario: Actualizar usuario
-#    Given path '/users/6940539'
-#    And request {"name":"Chandran Varma","email":"varma_chandran2@durgan.test","gender":"male","status":"active"}
-#    When method patch
-#    Then status 200
-#
-#  Scenario: Eliminar usuario
-#    Given path '/users/7247575'
-#    When method delete
-#    Then status 204
+  Scenario: Crear usuario
+    Given path '/users'
+    And request {"name": "Samuel Quenta Carvajal","email": "squentasdac6@bancosol.com.bo","gender": "male","status": "active"}
+    When method post
+    Then status 201
+
+  Scenario: Actualizar usuario
+    Given path '/users/7232072'
+    And request {"name":"Samuel Quenta","email":"sam@durasdgan.test","gender":"male","status":"active"}
+    When method patch
+    Then status 200
+
+  Scenario: Eliminar usuario
+    Given path '/users/7237598'
+    When method delete
+    Then status 204
